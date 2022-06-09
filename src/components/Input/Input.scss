@@ -7,17 +7,34 @@
   align-items: center;
   justify-content: space-between;
   padding: 6px 18px;
+  cursor: pointer;
+  border: 2px solid #f3f9fa;
+
+  &:hover{
+    background: #F3F9FA;
+    border: 2px solid #26C2AE;
+    border-radius: 5px; 
+}
 
   .input__number {
     border: none;
     background: #f3f9fa;
     outline: none;
+    text-align: right;
     font-weight: 700;
     font-size: 24px;
     line-height: 36px;
-    text-align: right;
     color: #00474b;
-    mix-blend-mode: normal;
-    opacity: 0.35;
+    cursor: pointer;
+
+    &::placeholder {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 36px;
+      color: #00474b;
+      mix-blend-mode: normal;
+      opacity: 0.35;
+    }
+ 
   }
 }
