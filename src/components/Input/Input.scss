@@ -1,0 +1,23 @@
+.input__container {
+  background: #f3f9fa;
+  border-radius: 5px;
+  height: 48px;
+  width: 379px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 18px;
+
+  .input__number {
+    border: none;
+    background: #f3f9fa;
+    outline: none;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: right;
+    color: #00474b;
+    mix-blend-mode: normal;
+    opacity: 0.35;
+  }
+}
