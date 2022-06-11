@@ -10,11 +10,17 @@
   cursor: pointer;
   border: 2px solid #f3f9fa;
 
-  &:hover{
+  &:hover {
     background: #F3F9FA;
     border: 2px solid #26C2AE;
-    border-radius: 5px; 
-}
+    border-radius: 5px;
+  }
+  &.red-input {
+    
+      background: #F3F9FA;
+      border: 2px solid #E17052;
+      border-radius: 5px;
+  }
 
   .input__number {
     border: none;
@@ -35,6 +41,8 @@
       mix-blend-mode: normal;
       opacity: 0.35;
     }
- 
+
   }
+
+  
 }
