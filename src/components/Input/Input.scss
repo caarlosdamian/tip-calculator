@@ -11,15 +11,14 @@
   border: 2px solid #f3f9fa;
 
   &:hover {
-    background: #F3F9FA;
-    border: 2px solid #26C2AE;
+    background: #f3f9fa;
+    border: 2px solid #26c2ae;
     border-radius: 5px;
   }
   &.red-input {
-    
-      background: #F3F9FA;
-      border: 2px solid #E17052;
-      border-radius: 5px;
+    background: #f3f9fa;
+    border: 2px solid #e17052;
+    border-radius: 5px;
   }
 
   .input__number {
@@ -41,8 +40,5 @@
       mix-blend-mode: normal;
       opacity: 0.35;
     }
-
   }
-
-  
 }
