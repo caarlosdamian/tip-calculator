@@ -1,18 +1,19 @@
-import React from "react";
+import React, { Dispatch, SetStateAction } from "react";
 import "./Input.scss";
 
 interface Props {
   icon: string;
-  onChange?: () => {};
+  setValue: Dispatch<SetStateAction<any>>;
   clasName?:string;
   people?:number;
+  type:string;
 }
 
-export const Input = ({ icon,clasName,people }: Props) => {
+export const Input = ({ icon,clasName,people ,setValue,type}: Props) => {
   return (
     <div className={`input__container ${people === 0 && clasName || ''}`}>
       <img src={icon} alt={icon} className="input__icon" />
-      <input className='input__number'  placeholder="0" />
+      <input type={type}  onChange={(e)=>setValue(e.target.value)} className='input__number'  placeholder="0" />
     </div>
   );
 };
